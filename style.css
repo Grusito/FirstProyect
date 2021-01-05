@@ -1,0 +1,102 @@
+* {
+    background: #600000;
+}
+
+h1 {
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: inherit;
+}
+
+h2 {
+    font-size: 24;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+p {
+    font-size: 18;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+body {
+    text-align: center;
+}
+
+header, aside, footer, nav, section, article {
+    display: block;
+}
+
+.cabeza {
+    border: 3px solid black;
+    border-inline-start: none;
+    border-inline-end: none;
+    display: block;
+}
+
+.grupo {
+    margin: 10px auto;
+    border: 3px solid black;
+    color: wheat;
+    padding: 2px;
+    width: 960px;
+}
+.opciones {
+    margin: done;
+
+}
+
+.opciones li {
+    list-style: none;
+    padding: 15px;
+    font: bold 18px verdana;
+    display: inline-block;
+}
+
+.seccion {
+    text-align: left;
+    font: bold 20px;
+    margin: 13px;
+    width: 600px;
+    border: 1px solid black;
+    float: left;
+}
+
+.columna {
+    width: 300px;
+    border: 1px solid black;
+    float: left;
+    margin: 13px;
+}
+
+.pie {
+    clear:both;
+   
+}
+
+.columna li {
+    margin: 20px;
+}
+
+blockquote {
+    display: inline-flex;
+    margin: 15px;
+}
+
+.cabeza img {
+    width: 35px;
+    float: right;
+    margin: 25px 10px 5px;
+    cursor: pointer;
+    
+}
+
+.cabeza {
+    background: #600000;
+}
+
